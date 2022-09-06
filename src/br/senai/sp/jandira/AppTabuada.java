@@ -4,12 +4,21 @@ import br.senai.sp.jandira.model.*;
 public class AppTabuada {
 
 	public static void main(String[] args) {
-
-		Calculo smt = new Calculo();
-		smt.multiplicando = 5;
-		smt.minMultiplicador = 7;
-		smt.maxMultiplicador = 10;
 		
+		Tabuada tabuada = new Tabuada();
+		
+		tabuada.multiplicando = 5;
+		tabuada.minMultiplicador = 7;
+		tabuada.maxMultiplicador = 10;
+		
+		String[] resultado = tabuada.getTabuada();
+		
+		int i = 0;
+		
+		while(i < resultado.length) {
+			System.out.println(resultado[i]);
+			i++;
+		}
 
 	}
 
