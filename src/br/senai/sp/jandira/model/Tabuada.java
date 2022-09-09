@@ -18,7 +18,7 @@ public class Tabuada {
 			
 		while (minMultiplicador <= maxMultiplicador) {
 			produto = multiplicando * minMultiplicador;
-			String resultado = multiplicando + " X " + minMultiplicador + " = " + maxMultiplicador;
+			String resultado = multiplicando + " X " + minMultiplicador + " = " + produto;
 	
 			tabuada[i] = resultado;
 			
